@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-21 11:34:33 PM"/>
+        <attribute name="created" value="QWNlcjtERVNLVE9QLUZFTkE5Q0M7MjAyMy0wOS0yMTsxMDozMDo1NiBQTTsyNzEz"/>
+        <attribute name="edited" value="QWNlcjtERVNLVE9QLUZFTkE5Q0M7MjAyMy0wOS0yMTsxMTozNDozMyBQTTs0OzI4MjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Programa para somar dois Numeros&quot;" newline="True"/>
+            <declare name="Numeros" type="Integer" array="False" size=""/>
+            <output expression="&quot;primeiro numero&quot;" newline="True"/>
+            <input variable="Numeros"/>
+            <declare name="outro" type="Integer" array="False" size=""/>
+            <output expression="&quot;segundo numero&quot;" newline="True"/>
+            <input variable="outro"/>
+            <output expression="Numeros + outro" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
